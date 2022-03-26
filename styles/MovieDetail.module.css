@@ -1,0 +1,57 @@
+.section {
+    padding: 7rem 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.image__container {
+    width: 30%;
+}
+
+.Movie__details {
+    width: 70%;
+    padding: 1rem 2rem;
+}
+
+.Movie__details p {
+    font-family: var(--Montserrat-font);
+}
+
+.Movie__title {
+    font-family: var(--Ubuntu-font) !important;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.Movie__tagline {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.Movie__overview {
+    margin-bottom: 1rem;
+}
+
+.Movie__genres {
+    display: flex;
+    font-family: var(--Montserrat-font);
+
+}
+
+@media screen and (max-width:750px) {
+    .section {
+        padding: 7rem 2rem;
+        flex-direction: column;
+    }
+
+    .image__container {
+        width: 100%;
+    }
+
+    .Movie__details {
+        width: 100%;
+        margin-top: 2rem;
+        padding: 0;
+    }
+}
